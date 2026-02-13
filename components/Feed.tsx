@@ -112,7 +112,12 @@ export default function Feed() {
       <Divider sx={{ mb: 2 }}>
         <Typography variant="caption" color="text.secondary">
           Sort by:{" "}
-          <span style={{ fontWeight: "bold", color: "black" }}>Top</span>
+          <Typography
+            component="span"
+            sx={{ fontWeight: "bold", color: "black" }}
+          >
+            Top
+          </Typography>
         </Typography>
       </Divider>
 
